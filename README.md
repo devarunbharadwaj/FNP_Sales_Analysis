@@ -18,6 +18,9 @@ The entire solution was built using Microsoft Excel, leveraging:
 This project simulates the workflow of a Business/Data Analyst working with operational sales data.
 
 ---
+## Dashboard Preview
+
+![Dashboard](dashboard.png)
 
 ## Business Questions Addressed
 
