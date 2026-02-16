@@ -1,26 +1,30 @@
 # Ferns & Petals (FNP) Sales Analysis  
 ### End-to-End Data & Business Analytics Project using Microsoft Excel (Power Query + Power Pivot)
 
+---
+
 ## Project Summary
 
 This project analyzes transactional sales data from Ferns & Petals (FNP), an occasion-based e-commerce gifting company operating across multiple Indian cities.
 
-The objective was to perform end-to-end analysis — from raw data extraction to executive dashboard delivery — and generate actionable business insights related to revenue performance, product contribution, seasonal demand, customer behavior, and operational efficiency.
+The objective was to independently execute the complete analytics workflow — from raw data extraction and transformation to interactive dashboard development — and generate actionable business insights related to:
 
-The entire solution was built using Microsoft Excel, leveraging:
+- Revenue performance  
+- Product contribution  
+- Seasonal demand patterns  
+- Customer spending behavior  
+- Geographic sales distribution  
+- Operational efficiency  
 
-- Power Query (ETL & Data Transformation)
-- Power Pivot (Data Modeling)
-- Pivot Tables & Charts
-- Slicers for interactivity
-- KPI Cards for executive reporting
-
-This project simulates the workflow of a Business/Data Analyst working with operational sales data.
+The entire solution was built using Microsoft Excel, leveraging advanced features typically used in Business Intelligence workflows.
 
 ---
+
 ## Dashboard Preview
 
-![Dashboard](dashboard.png)
+![Dashboard Preview](Dashboard.png)
+
+---
 
 ## Business Questions Addressed
 
@@ -37,32 +41,32 @@ This project simulates the workflow of a Business/Data Analyst working with oper
 
 ## Data Preparation & Modeling
 
-### Data Cleaning (Power Query)
+### Data Cleaning & Transformation (Power Query)
 
 - Removed duplicate and inconsistent records  
 - Standardized date formats  
+- Corrected data types for modeling  
 - Derived calculated fields:
   - Delivery Duration (Delivery Date – Order Date)
   - Order Month
-  - Occasion segmentation
-- Ensured correct data types for modeling  
+  - Occasion segmentation  
 
-The dataset was transformed into an analysis-ready format before loading into the data model.
+The dataset was transformed into an analysis-ready format prior to loading into the data model.
 
 ---
 
 ### Data Modeling (Power Pivot)
 
-- Built relational model between Orders, Products, Customers, and Dates
+- Built relational data model between Orders, Products, Customers, and Dates  
 - Created DAX measures including:
-  - Total Revenue
-  - Total Orders
-  - Average Customer Spend
-  - Average Delivery Time
-  - Revenue by Occasion
-  - Revenue by Category
+  - Total Revenue  
+  - Total Orders  
+  - Average Customer Spend  
+  - Average Delivery Time  
+  - Revenue by Occasion  
+  - Revenue by Category  
 
-Using Power Pivot allowed Excel to function as a BI tool rather than a flat spreadsheet.
+Using Power Pivot allowed Excel to function as a structured BI engine rather than a flat spreadsheet.
 
 ---
 
@@ -70,10 +74,10 @@ Using Power Pivot allowed Excel to function as a BI tool rather than a flat spre
 
 ### Overall Performance (2023)
 
-- Total Orders: 990  
-- Total Revenue: ₹5,86,176  
-- Average Customer Spend: ₹4,652  
-- Average Delivery Time: 5.72 Days  
+- **Total Orders:** 990  
+- **Total Revenue:** ₹5,86,176  
+- **Average Customer Spend:** ₹4,652  
+- **Average Delivery Time:** 5.72 Days  
 
 Revenue per customer indicates strong bundled-product purchasing behavior.
 
@@ -81,34 +85,34 @@ Revenue per customer indicates strong bundled-product purchasing behavior.
 
 ### Revenue by Occasion
 
-- Highest Revenue: Anniversary & Raksha Bandhan
-- Strong Contribution: Holi
-- Relatively Lower: Diwali & Valentine’s Day
+- Highest Revenue: Anniversary & Raksha Bandhan  
+- Strong Contribution: Holi  
+- Relatively Lower: Diwali & Valentine’s Day  
 
-Relationship-driven occasions generate stronger revenue than high-volume commercial festivals.
+Relationship-driven occasions generate stronger revenue than high-volume commercial festivals, suggesting targeted premium marketing opportunities.
 
 ---
 
 ### Revenue by Category
 
-- Top Category: Soft Toys
-- Moderate: Sweets, Colors
-- Lowest: Mugs
+- Top Category: Soft Toys  
+- Moderate Contribution: Sweets, Colors  
+- Lowest Contribution: Mugs  
 
-Customers prefer emotionally symbolic products over utility items.
+Customers demonstrate preference toward emotionally symbolic gifting products over utility-based items.
 
 ---
 
 ### Monthly Sales Trend
 
 Sales spikes observed during:
-- February
-- June
-- December
+- February  
+- June  
+- December  
 
 Noticeable dip around April.
 
-Demand is event-driven and seasonal.
+Demand is clearly seasonal and event-driven, highlighting the importance of inventory planning aligned with occasion clusters.
 
 ---
 
@@ -120,9 +124,7 @@ Bundled gift sets dominate revenue contribution, reinforcing the effectiveness o
 
 ### Top Cities by Orders
 
-Order distribution shows strong participation from Tier-2 and Tier-3 cities.
-
-Regional market penetration is significant and scalable.
+Order distribution indicates strong participation from Tier-2 and Tier-3 cities, suggesting scalable regional market penetration beyond metropolitan areas.
 
 ---
 
@@ -130,17 +132,19 @@ Regional market penetration is significant and scalable.
 
 Average delivery time remains approximately 5.72 days across the dataset.
 
-Preliminary observation suggests delivery duration is relatively stable; however, a deeper statistical correlation analysis between order quantity and delivery time would further validate supply chain scalability.
+Initial exploratory analysis indicates no visible spike in delivery duration across different order volumes. However, a formal statistical correlation or regression analysis between order quantity and delivery time would be required to conclusively validate supply chain scalability under higher demand conditions.
+
+This represents a potential analytical extension of the project.
 
 ---
 
 ## Tools & Technologies Used
 
 - Microsoft Excel  
-- Power Query  
-- Power Pivot  
+- Power Query (ETL & Data Transformation)  
+- Power Pivot (Data Modeling)  
 - DAX Measures  
-- Pivot Tables  
+- Pivot Tables & Charts  
 - Interactive Dashboard Design  
 
 ---
@@ -150,16 +154,12 @@ Preliminary observation suggests delivery duration is relatively stable; however
 - End-to-end data cleaning and transformation  
 - Data modeling using Power Pivot  
 - KPI creation using DAX  
-- Business problem translation into analytical outputs  
+- Business problem translation into measurable metrics  
 - Interactive dashboard development  
 - Insight generation for strategic decision-making  
 
 ---
 
-## Future Enhancements
+## Project Impact
 
-- Statistical correlation (Order Quantity vs Delivery Time)
-- Profit margin analysis
-- Customer segmentation
-- Demand forecasting
-- Migration to Power BI
+This project demonstrates the ability to independently manage the full analytics lifecycle — from raw data transformation to executive-level reporting — using Excel as a structured Business Intelligence tool.
